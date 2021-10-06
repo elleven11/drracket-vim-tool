@@ -461,7 +461,8 @@
            (set-mode! 'insert)]
           ['change-line
            (do-delete-line)
-           (set-mode! 'insert)]
+           (set-mode! 'insert)
+           (insert-line-before)]
           ['change-rest
            (delete-until-end)
            (set-mode! 'insert)
