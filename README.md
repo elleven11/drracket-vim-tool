@@ -1,4 +1,4 @@
-DrRacket Vim Tool
+DrRacket Vim Tool - Updated to be more homogeneous with real VI keybinds
 =================
 
 [![Build Status](https://travis-ci.org/takikawa/drracket-vim-tool.svg?branch=master)](https://travis-ci.org/takikawa/drracket-vim-tool)
@@ -13,11 +13,7 @@ Requires Racket v6.0 or newer.
 
 To install:
 
-  * `raco pkg install drracket-vim-tool` (via package catalog)
-
-or
-
-  * `raco pkg install	git://github.com/takikawa/drracket-vim-tool` (directly via Github)
+  * `raco pkg install	git://github.com/elleven11/drracket-vim-tool`
 
 Now when you load DrRacket, you should see a vim option in the
 `Edit` menu. Click that to enable vim mode.
